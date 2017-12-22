@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.livre.carlululite.MainActivity"
+    tools:showIn="@layout/tela_principal">
+
+
+    <LinearLayout
+        android:id="@+id/layouttopo_tp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fdb46d">
+
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="89dp"
+            android:src="@drawable/icone_programa"
+            android:id="@+id/imageView"/>
+
+        <LinearLayout
+            android:id="@+id/layout_titulo_programa_tp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/texto_tela1_1"
+                android:id="@+id/textView"
+                android:textColor="@color/abc_input_method_navigation_guard"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/texto_tela1_2"
+                android:id="@+id/textView2"
+                android:textColor="@color/abc_input_method_navigation_guard"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/mensagemTela1"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botaoTela1_1"
+        android:id="@+id/btcadastrar_usuario"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botaoTela1_2"
+        android:id="@+id/bt_listar_usuarios_cadastrados"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

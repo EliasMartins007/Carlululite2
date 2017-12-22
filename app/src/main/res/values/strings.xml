@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Carlululite</string>
+    <string name="action_settings">Settings</string>
+    <string name="texto_tela1_1">Sistema de</string>
+    <string name="texto_tela1_2">Gestão de ar condicionado</string>
+    <string name="mensagemTela1">Bem vindo ao Sistema de Cadastro. Esse é um pequeno software de cadastro de usúarios. Escolha uma das opções abaixo :</string>
+    <string name="botaoTela1_1">Preencher formulario ar condicionado</string>
+    <string name="botaoTela1_2">Listar todos aparelhos cadastrados</string>
+    <string name="textotelaCadastro_1">Relatorio </string>
+    <string name="textotelaCadastro_2">de manutenção</string>
+    <string name="titulotela2">Preencha os dados abaixo:</string>
+    <string name="nome_tela2">* Cliente :</string>
+    <string name="Endereco_tela2">* Endereço :</string>
+    <string name="telefone_tela2">* Telefone :</string>
+    <string name="botaotelaCadastro_cadastrar">Cadastrar</string>
+    <string name="botaotelaCadastro_cancelar">Cancelar</string>
+    <string name="mensagemobrigatorio">Campos Obrigatórios</string>
+    <string name="telaLista_1">Lista de</string>
+    <string name="telaLista_2">Usuários</string>
+    <string name="telaLista_status">Registros : 1/10</string>
+    <string name="telaListacampoNome">Cliente :</string>
+    <string name="telaListacampoNome2">[Nome]</string>
+    <string name="telaListacampoEndereco">Endereço</string>
+    <string name="telaListacampoEndereco2">[Endereço]</string>
+    <string name="telaListacampoTelefone">Telefone</string>
+    <string name="telaListacampoTelefone2">[Telefone]</string>
+    <string name="botaotelaListaAnterior">Anterior</string>
+    <string name="botaotelaListaproximo">Próximo</string>
+    <string name="botaotelaListaFechar">Fechar</string>
+</resources>
